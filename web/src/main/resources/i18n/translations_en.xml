@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="bracelet.id"> id </entry>
+	<entry key="bracelet.uuid"> Uuid </entry>
+	<entry key="bracelet.free"> Free </entry>
+	<entry key="bracelet.created"> Created </entry>
+	<entry key="bracelet.updated"> Updated </entry>
+	<entry key="card.id"> id </entry>
+	<entry key="card.dateRegistration"> Date registration </entry>
+	<entry key="card.clientId"> Client id </entry>
+	<entry key="card.active"> Is active </entry>
+	<entry key="card.nonactive"> non-active </entry>
+	<entry key="card.created"> Created </entry>
+	<entry key="card.updated"> Updated </entry>
+	<entry key="client.id"> id </entry>
+	<entry key="client.first_name"> First name </entry>
+	<entry key="client.last_name"> Last name </entry>
+	<entry key="client.birthday_date"> Birthday date </entry>
+	<entry key="client.phone_number"> Phone number </entry>
+	<entry key="client.created"> Created </entry>
+	<entry key="client.updated"> Updated </entry>
+	<entry key="order.id"> id </entry>
+	<entry key="order.startTime"> Start time </entry>
+	<entry key="order.endTime"> End time </entry>
+	<entry key="order.cardId"> Card id</entry>
+	<entry key="order.ticketTypeId"> Ticket type </entry>
+	<entry key="order.ticketPrice"> Ticket price </entry>
+	<entry key="order.braceletId"> Bracelet id </entry>
+	<entry key="order.created"> Created </entry>
+	<entry key="order.updated"> Updated </entry>
+	<entry key="payment.id"> id </entry>
+	<entry key="payment.amount"> Amount </entry>
+	<entry key="payment.orderId"> Order id </entry>
+	<entry key="payment.paymentType"> Payment type</entry>
+	<entry key="payment.created"> Created </entry>
+	<entry key="payment.updated"> Updated </entry>
+	<entry key="ticket.id"> id </entry>
+	<entry key="ticket.name"> Name </entry>
+	<entry key="ticket.price"> Price </entry>
+	<entry key="ticket.deleted"> Delete </entry>
+	<entry key="ticket.created"> Created </entry>
+	<entry key="ticket.updated"> Updated </entry>
+	<entry key="user"> Users </entry>
+	<entry key="user.id"> id </entry>
+	<entry key="user.email"> Email </entry>
+	<entry key="user.password"> Password </entry>
+	<entry key="user.role"> Role </entry>
+	<entry key="user.created"> Created </entry>
+	<entry key="user.updated"> Updated </entry>
+
+	<entry key="back.list"> Back to list </entry>
+	<entry key="save.button"> Save </entry>
+	<entry key="links.mainlogin"> Login with E-mail and Password</entry>
+	<entry key="links.logout"> Logout </entry>
+	<entry key="links.login"> Login </entry>
+	<entry key="links.home"> Home </entry>
+	<entry key="links.users"> Users </entry>
+	<entry key="links.payments"> Payments </entry>
+	<entry key="links.tickets"> Tickets </entry>
+	<entry key="links.orders"> Orders </entry>
+	<entry key="links.clients"> Clients </entry>
+	<entry key="links.third"> Cards </entry>
+	<entry key="links.second"> Bracelets </entry>
+	<entry key="links.first"> Links </entry>
+	<entry key="header.bracelet"> Bracelets </entry>
+	<entry key="header.client"> Clients </entry>
+
+</properties>

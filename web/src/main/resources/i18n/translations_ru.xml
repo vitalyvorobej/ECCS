@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="bracelet.id"> ид </entry>
+	<entry key="bracelet.uuid"> номер браслета </entry>
+	<entry key="bracelet.free"> активность  </entry>
+	<entry key="bracelet.created"> создан </entry>
+	<entry key="bracelet.updated"> обновлен </entry>
+	<entry key="card.id"> ид </entry>
+	<entry key="card.dateRegistration"> дата регистрации </entry>
+	<entry key="card.clientId"> ид клиента </entry>
+	<entry key="card.active"> активна </entry>
+	<entry key="card.nonactive"> неактивна </entry>
+	<entry key="card.created"> создан </entry>
+	<entry key="card.updated"> обновлен </entry>
+	<entry key="client.id"> ид </entry>
+	<entry key="client.first_name"> имя </entry>
+	<entry key="client.last_name"> фамилия </entry>
+	<entry key="client.birthday_date"> дата рождения </entry>
+	<entry key="client.phone_number"> номер телефона </entry>
+	<entry key="client.created"> создан </entry>
+	<entry key="client.updated"> обновлен </entry>
+	<entry key="order.id"> ид </entry>
+	<entry key="order.startTime"> время начала сеанса </entry>
+	<entry key="order.endTime"> время окончания сеанса </entry>
+	<entry key="order.cardId"> ид карточки </entry>
+	<entry key="order.ticketTypeId"> тип билета </entry>
+	<entry key="order.ticketPrice"> цена билета </entry>
+	<entry key="order.braceletId"> ид браслета </entry>
+	<entry key="order.created"> создан </entry>
+	<entry key="order.updated"> обновлен </entry>
+	<entry key="payment.id"> ид </entry>
+	<entry key="payment.amount"> оплачено </entry>
+	<entry key="payment.orderId"> номер заказа </entry>
+	<entry key="payment.paymentType"> тип оплаты</entry>
+	<entry key="payment.created"> создан </entry>
+	<entry key="payment.updated"> обновлен </entry>
+	<entry key="ticket.id"> ид </entry>
+	<entry key="ticket.name"> имя </entry>
+	<entry key="ticket.price"> цена </entry>
+	<entry key="ticket.deleted"> удален </entry>
+	<entry key="ticket.created"> создан </entry>
+	<entry key="ticket.updated"> обновлен </entry>
+	<entry key="user.id"> ид </entry>
+	<entry key="user.email"> электронная почта </entry>
+	<entry key="user.password"> Пароль </entry>
+	<entry key="user.role"> роль </entry>
+	<entry key="user.created"> создан </entry>
+	<entry key="user.updated"> обновлен </entry>
+	<entry key="user.backToList"> к списку </entry>
+
+	<entry key="back.list"> К списку </entry>
+	<entry key="save.button"> сохранить </entry>
+	<entry key="links.mainlogin"> Войдите с помощью эмейла и пароля</entry>
+	<entry key="links.logout"> Выйти </entry>
+	<entry key="links.login"> Войти </entry>
+	<entry key="links.home"> Главная </entry>
+	<entry key="links.users"> Пользователи </entry>
+	<entry key="links.payments"> Оплаты </entry>
+	<entry key="links.tickets"> Билеты </entry>
+	<entry key="links.orders"> Заказы </entry>
+	<entry key="links.clients"> Клиенты </entry>
+	<entry key="links.third"> Карты </entry>
+	<entry key="links.second"> Браслеты </entry>
+	<entry key="links.first"> Ссылки </entry>
+	<entry key="header.bracelet"> Браслеты </entry>
+	<entry key="header.client"> Клиенты </entry>
+</properties>

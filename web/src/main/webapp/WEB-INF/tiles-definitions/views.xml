@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="index" extends="DefaultTemplate2">
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+
+	<definition name="bracelet.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/bracelet/list.jsp" />
+	</definition>
+	<definition name="bracelet.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/bracelet/form.jsp" />
+	</definition>
+
+	<definition name="client.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/client/list.jsp" />
+	</definition>
+	<definition name="client.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/client/form.jsp" />
+	</definition>
+
+	<definition name="card.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/card/form.jsp" />
+	</definition>
+	<definition name="card.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/card/list.jsp" />
+	</definition>
+
+	<definition name="user.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/form.jsp" />
+	</definition>
+	<definition name="user.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/list.jsp" />
+	</definition>
+
+	<definition name="order.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/order/list.jsp" />
+	</definition>
+	<definition name="order.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/order/form.jsp" />
+	</definition>
+
+	<definition name="ticket.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/ticket/form.jsp" />
+	</definition>
+	<definition name="ticket.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/ticket/list.jsp" />
+	</definition>
+
+	<definition name="payment.edit" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/payment/form.jsp" />
+	</definition>
+	<definition name="payment.list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/payment/list.jsp" />
+	</definition>
+
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+</tiles-definitions>
