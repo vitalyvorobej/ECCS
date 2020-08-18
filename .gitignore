@@ -9,4 +9,7 @@ web/.classpath
 /.metadata/
 /bin/
 .classpath
+# IntellijIdea files
+*.iml
 .idea
+out
